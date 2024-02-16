@@ -5,7 +5,7 @@
       <img src="../assets/pug.jpg" @click="imgVisible = !imgVisible" v-if="imgVisible == true">
       <img src="../assets/pugElegante.jpg" @click="imgVisible = !imgVisible" v-else>
     </div>
-    <Regreso ruta="home"/>
+    <Regreso ruta="home" texto="Regresa desde Clickeo a Imagen"/>
   </div>
 </template>
 

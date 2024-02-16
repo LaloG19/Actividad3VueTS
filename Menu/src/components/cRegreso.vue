@@ -39,7 +39,7 @@ a:hover{
   display: flex;
   flex-direction: row;
   
-  width: 20%;
+  width: 25%;
   margin: auto;
   align-items: center;
   justify-content: center;

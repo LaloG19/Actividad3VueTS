@@ -8,7 +8,7 @@
     <div class="formulario">
       <input type="text" v-model="texto">
     </div>
-    <Regreso ruta="home"/>
+    <Regreso ruta="home" texto="Regresa desde 'visible'"/>
   </div>
 </template>
 

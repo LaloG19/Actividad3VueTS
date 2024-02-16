@@ -6,7 +6,7 @@
       <img src="../assets/pugElegante.jpg">
     </div>
     <button @click="imgVisible = !imgVisible"> <span>Continue</span> </button>
-    <Regreso ruta="home"/>
+    <Regreso ruta="home" texto="Regresa desde press button"/>
   </div>
 </template>
 

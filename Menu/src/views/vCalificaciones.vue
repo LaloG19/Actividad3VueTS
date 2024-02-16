@@ -5,7 +5,7 @@
       <img src="../assets/pug.jpg" v-if="imgVisible == true">
       <img src="../assets/pugElegante.jpg" v-else>
     </div>
-    <Regreso ruta="home"/>
+    <Regreso ruta="home" texto="Regresa desde Press Any Key"/>
   </div>
 </template>
 

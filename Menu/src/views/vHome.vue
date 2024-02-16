@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
 import Regreso from '../components/cRegreso.vue'
+
+const obvio = () => {
+  alert('Es neta?');
+}
 </script>
 
 <template>
@@ -13,7 +17,7 @@ import Regreso from '../components/cRegreso.vue'
     <RouterLink :to="{name: 'calificaciones'}"> Calificaciones </RouterLink>
   </div>
 
-  <Regreso ruta="home"/>
+  <Regreso ruta="home" texto="Regresa desde el mismo home lol" @click="obvio"/>
 </template>
 
 <style scoped>

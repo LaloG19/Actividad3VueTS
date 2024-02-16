@@ -14,7 +14,7 @@
         </label>
       </div>
     </div>
-    <Regreso ruta="home"/>
+    <Regreso ruta="home" texto="Regresa desde '3 valores'"/>
   </div>
 </template>
 
